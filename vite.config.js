@@ -3,5 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // base: "/YOUR_REPOSITORY_NAME"
+  base: "/1_sampleReactProject",
   plugins: [react()],
 })
